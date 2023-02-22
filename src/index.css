@@ -10,4 +10,63 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Shantell+Sans:ital@1&display=swap');
+
 }
+header{
+  background-color: rgb(212, 206, 206);
+  border-radius: 10px;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.numero{
+  height: 10px;
+  color: rgb(249, 255, 255);
+  background-color:  rgb(113, 109, 97);
+  opacity: 0.8;
+  border-radius: 50%;
+}
+.titulo{
+  display: flex;
+  color: rgb(62, 165, 165);
+  font-family: 'Poppins', sans-serif;
+  justify-content: left;
+  padding-left: 10px;
+}
+.navegacion{
+  display: flex;
+  list-style: none;
+  column-gap: 100px;
+  padding-right: 20px;
+}
+.itemNav{
+  font-family: 'Shantell Sans', cursive;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(113, 109, 104);
+}
+.container{
+  border-radius:10%;
+  border: 10px black;
+  margin-top: 20px;
+  border: 1px solid #d0d0d0;
+  position:absolute;
+}
+.imagen{
+  opacity: 0.6;
+  height: 200px;
+  width: 400px;
+  object-fit: contain;
+}
+button{
+  color: blanchedalmond;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+.container:hover{
+  box-shadow: 4px 5px 10px 1px rgba(123, 121, 121, 0.2);
+}
+
